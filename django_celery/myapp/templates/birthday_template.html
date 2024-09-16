@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Wish</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #F0F8FF;
+            margin: 0;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #F1C40F;
+            margin-bottom: 20px;
+        }
+        .message h1 {
+            color: #E74C3C;
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .message p {
+            color: #333;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="message">
+            <h1>Happy Birthday, {{ employee.name }}!</h1>
+            <p>I hope you have a wonderful day.</p>
+            <p>Wishing you a day filled with love, joy, and wonderful surprises. May this year be your best one yet!</p>
+            <p>Have a fantastic day!</p>
+        </div>
+        <p>Best wishes from my site!</p>
+        <br>
+        <div class="footer">
+            <p>Kind regards,</p>
+            <p>BridgeFix Team</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
